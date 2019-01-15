@@ -1,0 +1,6 @@
+{
+  "name":             "carleton/page-links-to",
+  "description":      "Carleton's fork of the page-links-to WordPress plugin",
+  "keywords":         ["page-links-to", "wordpress", "Carleton College"],
+  "license":          "MIT"
+}
