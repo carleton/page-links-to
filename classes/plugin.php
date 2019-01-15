@@ -376,6 +376,10 @@ class CWS_PageLinksTo {
 			'show_ui' => true,
 		) ) ) );
 
+		if ( is_object( $type ) ) {
+			$type = $type->id;
+		}
+
 		return in_array( $type, $supported_post_types );
 	}
 
